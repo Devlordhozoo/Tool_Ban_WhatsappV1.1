@@ -48,7 +48,7 @@ def get_request_count():
             print(Fore.RED + "Please enter a valid number.")
 num_requests = get_request_count()        
 # Target URL
-url = "https://www.whatsapp.com/contact/noclient/async/new/"
+url = "https://www.whatsapp.com/contact/noclient/"
 
 # Request headers
 headers = {
